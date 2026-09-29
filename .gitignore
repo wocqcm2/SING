@@ -1,0 +1,20 @@
+# Local credentials and rendered configurations
+.env
+.env.*
+!.env.example
+api.env
+api.env.*
+!api.env.example
+*.local.json
+*.local.json.tmp
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+
+# OS metadata
+.DS_Store
+Thumbs.db

@@ -1,0 +1,198 @@
+{
+ "_meta": {
+  "note": "Benchmark-specific launch configurations. Select one benchmark section and render placeholders with dataset/render_config.py. Copy only launch_config to the local mcpServers object under main_pool_name; null means add a new entry under the override key. Omit null cwd values. Keep other selected entries unchanged. Benchmark runners may instead require the override keys as aliases. install records setup commands; source records pinned upstream revisions where available. Supply required values through your local dataset/.env file."
+ },
+ "mcp-bench": {
+  "NixOS": {
+   "main_pool_name": "nixos",
+   "install": "uvx --with 'mcp<2' mcp-nixos==1.0.0",
+   "note": "Uses mcp-nixos 1.0.0 for the benchmark's darwin_* and home_manager_* tools. The setup command and launch configuration use the same pinned version.",
+   "launch_config": {
+    "command": "uvx",
+    "args": [
+     "--with",
+     "mcp<2",
+     "mcp-nixos==1.0.0"
+    ],
+    "cwd": null
+   }
+  },
+  "Reddit": {
+   "main_pool_name": "reddit-mcp",
+   "install": "git clone https://github.com/Accenture/mcp-bench.git && cd mcp-bench && git checkout 7a8eaeae83a842a2949080acc5473f65e1569daf && cd mcp_servers && bash install.sh",
+   "note": "Uses mcp_servers/mcp-reddit from the pinned mcp-bench checkout. Run its mcp_servers/install.sh to install the Python dependencies before launching.",
+   "launch_config": {
+    "command": "uv",
+    "args": [
+     "run",
+     "python",
+     "-m",
+     "mcp_reddit.reddit_fetcher"
+    ],
+    "cwd": "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/mcp-reddit"
+   },
+   "source": "https://github.com/Accenture/mcp-bench.git@7a8eaeae83a842a2949080acc5473f65e1569daf"
+  }
+ },
+ "MCP-Universe": {
+  "notion": {
+   "main_pool_name": "mcp-notion-server",
+   "install": "npx -y @notionhq/notion-mcp-server@1.8.1",
+   "note": "Uses the official @notionhq/notion-mcp-server package at version 1.8.1 for the benchmark's API-* tools.",
+   "launch_config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@notionhq/notion-mcp-server@1.8.1"
+    ],
+    "env": {
+     "OPENAPI_MCP_HEADERS": "${OPENAPI_MCP_HEADERS}"
+    },
+    "cwd": null
+   }
+  },
+  "github": {
+   "main_pool_name": "github",
+   "install": "docker pull ghcr.io/github/github-mcp-server:0.5.0",
+   "note": "Uses the official GitHub MCP server 0.5.0 Docker image. Set GITHUB_PERSONAL_ACCESS_TOKEN in your local environment file.",
+   "launch_config": {
+    "command": "docker",
+    "args": [
+     "run",
+     "-i",
+     "--rm",
+     "-e",
+     "GITHUB_PERSONAL_ACCESS_TOKEN",
+     "ghcr.io/github/github-mcp-server:0.5.0"
+    ],
+    "env": {
+     "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
+    },
+    "cwd": null
+   }
+  },
+  "playwright": {
+   "main_pool_name": "playwright",
+   "install": "npx -y @playwright/mcp@0.0.30 --version && npx -y playwright install chromium",
+   "note": "Uses @playwright/mcp 0.0.30 in headless, isolated mode. Install Chromium separately before the first launch.",
+   "launch_config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@playwright/mcp@0.0.30",
+     "--headless",
+     "--isolated"
+    ],
+    "env": {
+     "PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS": "false"
+    },
+    "cwd": null
+   }
+  }
+ },
+ "mcp-atlas": {
+  "weather-data": {
+   "main_pool_name": "weather data",
+   "install": "pip install 'git+https://github.com/geobio/weather-mcp-server.git@70b6a7c8183c8a3acc175f786f4b7be9c2ba66e4'",
+   "note": "Install from the pinned source commit and launch the weather_mcp_server.main Python module.",
+   "launch_config": {
+    "command": "python3",
+    "args": [
+     "-m",
+     "weather_mcp_server.main"
+    ],
+    "env": {
+     "WEATHER_API_KEY": "${WEATHER_API_KEY}"
+    },
+    "cwd": null
+   },
+   "source": "https://github.com/geobio/weather-mcp-server.git@70b6a7c8183c8a3acc175f786f4b7be9c2ba66e4"
+  },
+  "notion": {
+   "main_pool_name": "mcp-notion-server",
+   "install": "npx -y @notionhq/notion-mcp-server@1.8.1",
+   "note": "Uses the official @notionhq/notion-mcp-server package at version 1.8.1, matching the MCP-Universe override.",
+   "launch_config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@notionhq/notion-mcp-server@1.8.1"
+    ],
+    "env": {
+     "OPENAPI_MCP_HEADERS": "${OPENAPI_MCP_HEADERS}"
+    },
+    "cwd": null
+   }
+  },
+  "twelvedata": {
+   "main_pool_name": "twelve data mcp server",
+   "install": "uvx --with 'mcp<2' mcp-server-twelve-data==0.2.5",
+   "note": "Uses mcp-server-twelve-data 0.2.5. Supply TWELVEDATA_API_KEY for the -k argument.",
+   "launch_config": {
+    "command": "uvx",
+    "args": [
+     "--with",
+     "mcp<2",
+     "mcp-server-twelve-data==0.2.5",
+     "-k",
+     "${TWELVEDATA_API_KEY}"
+    ],
+    "cwd": null
+   }
+  },
+  "clinicaltrialsgov-mcp-server": {
+   "main_pool_name": "clinicaltrials-mcp-server",
+   "install": "npx -y clinicaltrialsgov-mcp-server@1.0.8",
+   "note": "Uses clinicaltrialsgov-mcp-server 1.0.8; this configuration requires no credentials.",
+   "launch_config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "clinicaltrialsgov-mcp-server@1.0.8"
+    ],
+    "env": {
+     "MCP_LOG_LEVEL": "info"
+    },
+    "cwd": null
+   }
+  },
+  "cli-mcp-server": {
+   "main_pool_name": null,
+   "install": "uvx --with 'mcp<2' cli-mcp-server==0.2.5",
+   "note": "This entry is not in the main pool. Uses cli-mcp-server 0.2.5 with ALLOWED_DIR restricted to services/agent-environment/data in the mcp-atlas checkout.",
+   "launch_config": {
+    "command": "uvx",
+    "args": [
+     "--with",
+     "mcp<2",
+     "cli-mcp-server==0.2.5"
+    ],
+    "env": {
+     "ALLOWED_DIR": "${MCPDATA_ROOT}/run_servers/Evaluation/mcp-atlas/services/agent-environment/data",
+     "ALLOWED_COMMANDS": "ls,cat,find",
+     "MAX_COMMAND_LENGTH": "1024",
+     "COMMAND_TIMEOUT": "30",
+     "ALLOW_SHELL_OPERATORS": "false"
+    },
+    "cwd": null
+   }
+  },
+  "github": {
+   "main_pool_name": "github",
+   "install": "npx -y github:geobio/smitheryai-mcp-servers-github#68368436034fb0003a6d8ed91afc9d0a64142b84",
+   "note": "Uses the geobio/smitheryai-mcp-servers-github implementation at the pinned commit. This differs from the official GitHub server used by the MCP-Universe override.",
+   "launch_config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "github:geobio/smitheryai-mcp-servers-github#68368436034fb0003a6d8ed91afc9d0a64142b84"
+    ],
+    "env": {
+     "GITHUB_TOKEN": "${GITHUB_TOKEN}"
+    },
+    "cwd": null
+   },
+   "source": "https://github.com/geobio/smitheryai-mcp-servers-github@68368436034fb0003a6d8ed91afc9d0a64142b84"
+  }
+ }
+}

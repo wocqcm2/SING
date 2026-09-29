@@ -1,0 +1,8917 @@
+{
+ "note": "Dependency inventory for the 779 main-pool servers and benchmark overrides; includes separate HTTP startup dependencies. See mcp_config_779.public.json _meta.launch_requirements for updated setup constraints.",
+ "composition": {
+  "total": 779,
+  "split_variants_for_benchmark": {
+   "mongodb-crypto": "mongodb",
+   "slack-bot": "slack",
+   "memory-aim": "memory",
+   "huggingface-hub-search-alt": "huggingface-hub-search",
+   "mcp-google-maps-alt": "mcp google maps",
+   "national-weather-service-alt": "national-weather-service"
+  },
+  "in_runnable_pool": 779,
+  "has_command_but_not_in_pool": [],
+  "blacklisted": []
+ },
+ "runtimes": {
+  "npm": 623,
+  "pypi": 123,
+  "local_python": 14,
+  "python_module": 11,
+  "local_node": 5,
+  "none": 0,
+  "binary": 1,
+  "other": 2
+ },
+ "dependency_totals": {
+  "npm": 621,
+  "pypi": 123,
+  "python_modules": 11,
+  "local_paths": 41,
+  "binaries": 1,
+  "env_vars": 397
+ },
+ "npm": {
+  "3d-asset-processing-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "3D Asset Processing MCP"
+   ]
+  },
+  "@247arjun/mcp-grep": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "grep mcp server"
+   ]
+  },
+  "@aashari/mcp-server-atlassian-confluence": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "confluence"
+   ]
+  },
+  "@aeven/nanobanana-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "nano banana"
+   ]
+  },
+  "@agentset/mcp": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "agentset"
+   ]
+  },
+  "@ai-capabilities-suite/mcp-debugger-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp debugger server"
+   ]
+  },
+  "@ai-capabilities-suite/mcp-screenshot": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp screenshot server"
+   ]
+  },
+  "@aiondadotcom/mcp-ssh": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-ssh"
+   ]
+  },
+  "@ajaystream/mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "hubspot mcp server"
+   ]
+  },
+  "@akiojin/model-hub-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "model hub mcp"
+   ]
+  },
+  "@alchemy/mcp-server": {
+   "versions": [
+    "0.1.8"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "alchemy"
+   ]
+  },
+  "@amap/amap-maps-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "amap"
+   ]
+  },
+  "@anaisbetts/mcp-installer": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-installer"
+   ]
+  },
+  "@anaisbetts/mcp-youtube": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "youtube mcp server"
+   ]
+  },
+  "@antv/mcp-server-antv": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-server-antv"
+   ]
+  },
+  "@antv/mcp-server-chart": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-server-chart"
+   ]
+  },
+  "@anyicode/spec-kit-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "spec kit mcp server"
+   ]
+  },
+  "@anysiteio/mcp": {
+   "versions": [
+    "3.0.0"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "hdw mcp server"
+   ]
+  },
+  "@baidumap/mcp-server-baidu-map": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "baidu-map"
+   ]
+  },
+  "@bankless/onchain-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "bankless"
+   ]
+  },
+  "@betterhyq/mermaid-grammer-inspector-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mermaid-grammer-inspector"
+   ]
+  },
+  "@bharathvaj/whois-mcp": {
+   "versions": [
+    "1.0.1"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "whois mcp"
+   ]
+  },
+  "@bnb-chain/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "bnbchain-mcp"
+   ]
+  },
+  "@browsermcp/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "browser mcp"
+   ]
+  },
+  "@bujaayjaay/mcp-coincap-jj": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-coincap-jj"
+   ]
+  },
+  "@burtthecoder/mcp-dnstwist": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "dnstwist mcp server"
+   ]
+  },
+  "@cablate/mcp-doc-forge": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "searxng"
+   ]
+  },
+  "@cablate/mcp-gmail": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "gmail mcp server"
+   ]
+  },
+  "@cablate/mcp-google-map": {
+   "versions": [
+    "0.0.13"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-google-maps-alt"
+   ],
+   "usage": "Separate HTTP startup process; mcpServers entry contains the endpoint URL."
+  },
+  "@calcslive/mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "calcslive mcp server"
+   ]
+  },
+  "@canva/cli": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "canva-dev"
+   ]
+  },
+  "@carbonvoice/cv-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "carbon voice"
+   ]
+  },
+  "@cdugo/docs-fetcher-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "docsfetcher mcp server"
+   ]
+  },
+  "@cenemiljezweb/dns-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "dns mcp server"
+   ]
+  },
+  "@chargebee/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "chargebee"
+   ]
+  },
+  "@charlesmuchene/pref-editor-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "android preference editor mcp server"
+   ]
+  },
+  "@chriswhiterocks/sushimcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "sushimcp"
+   ]
+  },
+  "@clado-ai/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "clado mcp server"
+   ]
+  },
+  "@clayhq/clay-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "clay"
+   ]
+  },
+  "@cmann50/mcp-chrome-google-search": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-chrome-google-search"
+   ]
+  },
+  "@codecraftersllc/local-voice-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "local-voice-mcp"
+   ]
+  },
+  "@cosmowind/ohcard-mcp": {
+   "versions": [
+    "1.0.4"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ohcard"
+   ]
+  },
+  "@crexative/colombia-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "colombia mcp server"
+   ]
+  },
+  "@cristianoaredes/mcp-mobile-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp mobile server"
+   ]
+  },
+  "@danielsimonjr/everything-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "everything mcp server"
+   ]
+  },
+  "@danielsimonjr/fzf-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fzf MCP Server"
+   ]
+  },
+  "@danielsimonjr/memory-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "enhanced knowledge graph memory server"
+   ]
+  },
+  "@danjdewhurst/todo-md-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "todo markdown mcp server"
+   ]
+  },
+  "@dealx/mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "dealx"
+   ]
+  },
+  "@devabdultech/hn-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "hackernews"
+   ]
+  },
+  "@devlime/mcp-env-manager": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp environment & installation manager"
+   ]
+  },
+  "@devproxy/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "devproxy"
+   ]
+  },
+  "@devqxi/pubdev-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pub.dev mcp server"
+   ]
+  },
+  "@devstacks/id-generator-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "id generator mcp"
+   ]
+  },
+  "@dillip285/mcp-terminal": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "terminal"
+   ]
+  },
+  "@drfirst/kimp-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "kimp mcp server"
+   ]
+  },
+  "@dstotijn/knmi-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "knmi mcp server"
+   ]
+  },
+  "@dynamic-mockups/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "dynamic mockups"
+   ]
+  },
+  "@e2b/mcp-server": {
+   "versions": [
+    "0.2.0"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "e2b-server"
+   ]
+  },
+  "@eldoraui/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "eldora ui mcp server"
+   ]
+  },
+  "@elgentos/magento2-dev-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "magento 2 development mcp server"
+   ]
+  },
+  "@ethora/mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ethora mcp server"
+   ]
+  },
+  "@f2c/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "f2c-mcp-server"
+   ]
+  },
+  "@f4ww4z/mcp-mysql-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mysql"
+   ]
+  },
+  "@felores/airtable-mcp-server": {
+   "versions": [
+    "0.3.0"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "airtable"
+   ]
+  },
+  "@firefly-iii-mcp/local": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "firefly-iii"
+   ]
+  },
+  "@fishes/mcp-easy-copy": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp easy copy"
+   ]
+  },
+  "@flowy11/imagician": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "imagician"
+   ]
+  },
+  "@fundfluent/funding-assistant": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fluentlab funding assistant"
+   ]
+  },
+  "@geobio/code_execution_server": {
+   "versions": [
+    "0.2.1"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp_code_executor"
+   ]
+  },
+  "@geobio/google-workspace-server": {
+   "versions": [
+    "0.1.0"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "google-workspace"
+   ]
+  },
+  "@geobio/mcp-open-library": {
+   "versions": [
+    "0.1.6"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-open-library"
+   ]
+  },
+  "@gongrzhe/server-travelplanner-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "travel-planner"
+   ]
+  },
+  "@google-cloud/cloud-run-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "cloud run mcp server"
+   ]
+  },
+  "@gotohuman/mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "gotoHuman"
+   ]
+  },
+  "@grec0/mcp-jenkins": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-jenkins"
+   ]
+  },
+  "@grec0/mcp-n8n-webhook": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp n8n webhook server"
+   ]
+  },
+  "@grec0/mcp-planka": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "planka mcp server"
+   ]
+  },
+  "@grec0/mcp-svn": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "svn mcp server"
+   ]
+  },
+  "@growthbook/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "growthbook"
+   ]
+  },
+  "@hackle-io/hackle-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "hackle-mcp"
+   ]
+  },
+  "@heilgar/shadcn-ui-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "shadcn-ui MCP Server"
+   ]
+  },
+  "@henkey/postgres-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "postgresql-mcp"
+   ]
+  },
+  "@hiyorineko/mcp-rollbar-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "rollbar-mcp"
+   ]
+  },
+  "@hoangdn3/openrouter-mcp-multimodal": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "openrouter mcp multimodal server"
+   ]
+  },
+  "@houtini/lm": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "houtini-lm"
+   ]
+  },
+  "@hummbl/mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "hummbl mcp server"
+   ]
+  },
+  "@hun-dun/markdown-to-html-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "markdown to html mcp server"
+   ]
+  },
+  "@inkdropapp/mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "inkdrop"
+   ]
+  },
+  "@intsig/server-textin": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "textin-ocr"
+   ]
+  },
+  "@ipfind/ipfind-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ip find"
+   ]
+  },
+  "@iplocate/mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "iplocate mcp server"
+   ]
+  },
+  "@isaacphi/mcp-gdrive": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "gdrive"
+   ]
+  },
+  "@ivotoby/contentful-graphql-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "contentful graphql mcp server"
+   ]
+  },
+  "@ivotoby/contentful-management-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "contentful"
+   ]
+  },
+  "@izumisy/mcp-universal-db-client": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp universal db client"
+   ]
+  },
+  "@jaggerxtrm/qwen-mcp-tool": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "qwen mcp tool"
+   ]
+  },
+  "@jahfer/jmap-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "jmap mcp server"
+   ]
+  },
+  "@jasondsmith72/cwm-api-gateway-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "connectwise api gateway mcp server"
+   ]
+  },
+  "@jaxon-digital/optimizely-dxp-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "optimizely dxp mcp server"
+   ]
+  },
+  "@jayarrowz/mcp-figma": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "figma"
+   ]
+  },
+  "@jimpick/mcp-json-db-collection-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp json document collection server"
+   ]
+  },
+  "@just-every/mcp-read-website-fast": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "read-website-fast"
+   ]
+  },
+  "@just-every/mcp-screenshot-website-fast": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "screenshot website fast"
+   ]
+  },
+  "@jwalsh/mcp-server-qrcode": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp qr code server"
+   ]
+  },
+  "@k-jarzyna/mcp-miro": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "miro"
+   ]
+  },
+  "@kalendis/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "kalendis mcp"
+   ]
+  },
+  "@kasarlabs/cairo-coder-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "cairo coder"
+   ]
+  },
+  "@kourtni/mcp-testing-sensei": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp unit test sensei"
+   ]
+  },
+  "@kwangdss/bizinfo-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "bizinfo mcp server"
+   ]
+  },
+  "@kwaude/xmtp-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "xmtp mcp server"
+   ]
+  },
+  "@kydycode/todoist-mcp-server-ext": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "enhanced todoist mcp server extended"
+   ]
+  },
+  "@langgraph-js/crawler-mcp": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "langgraph-crawler"
+   ]
+  },
+  "@lbdudc/mcp-uvl-analyzer": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fm-analyzer"
+   ]
+  },
+  "@lex-tools/codebase-context-dumper": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "@lex-tools/codebase-context-dumper"
+   ]
+  },
+  "@likec4/mcp": {
+   "versions": [
+    "1.59.4"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "likec4"
+   ]
+  },
+  "@llamaindex/mcp-server-llamacloud": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "llamacloud"
+   ]
+  },
+  "@lucianaib/logo-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "logo mcp"
+   ]
+  },
+  "@magicuidesign/mcp": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "@magicuidesign/mcp"
+   ]
+  },
+  "@makafeli/n8n-workflow-builder": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "n8n Workflow Builder"
+   ]
+  },
+  "@makeplane/plane-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "plane"
+   ]
+  },
+  "@marco-looy/pega-dx-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pega dx mcp server"
+   ]
+  },
+  "@marcusbarcelos/uiux-tools-react-mui": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ux/ui tools for react + material-ui"
+   ]
+  },
+  "@masamunet/npm-dev-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "npm-dev-mcp"
+   ]
+  },
+  "@mastergo/magic-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mastergo-magic-mcp"
+   ]
+  },
+  "@mcp-dockmaster/mcp-cryptowallet-evm": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp crypto wallet evm"
+   ]
+  },
+  "@mcp-dockmaster/mcp-server-jupiter": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp jupiter"
+   ]
+  },
+  "@mcpdotdirect/evm-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "evm mcp server"
+   ]
+  },
+  "@mcpjam/mcp-spec": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp specification server"
+   ]
+  },
+  "@meinzeug/mcp-ai-bug-helper": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp ai bug helper"
+   ]
+  },
+  "@melaodoidao/datagov-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "datagov"
+   ]
+  },
+  "@memtensor/memos-api-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "memos"
+   ]
+  },
+  "@mfukushim/map-traveler-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "traveler"
+   ]
+  },
+  "@microsoft/clarity-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "@microsoft/clarity-mcp-server"
+   ]
+  },
+  "@mingzilla/pi-api-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pi api mcp server"
+   ]
+  },
+  "@mjpitz/mcp-rfc": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "rfc mcp server"
+   ]
+  },
+  "@mkusaka/mcp-shell-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "shell"
+   ]
+  },
+  "@mobilenext/mobile-mcp": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mobile-mcp"
+   ]
+  },
+  "@modelcontextprotocol/server-aws-kb-retrieval": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "aws knowledge base retrieval mcp server"
+   ]
+  },
+  "@modelcontextprotocol/server-brave-search": {
+   "versions": [
+    "0.6.2"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-brave-search"
+   ]
+  },
+  "@modelcontextprotocol/server-filesystem": {
+   "versions": [
+    "2025.11.25"
+   ],
+   "n_servers": 2,
+   "servers": [
+    "mcp filesystem server",
+    "filesystem-mcp-server"
+   ]
+  },
+  "@modelcontextprotocol/server-google-maps": {
+   "versions": [
+    "0.6.2"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp google maps"
+   ]
+  },
+  "@modelcontextprotocol/server-memory": {
+   "versions": [
+    "2025.8.4"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "memory"
+   ]
+  },
+  "@modelcontextprotocol/server-puppeteer": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "puppeteer"
+   ]
+  },
+  "@modelcontextprotocol/server-slack": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "slack-bot"
+   ]
+  },
+  "@mrnitro360/react-native-mcp-guide": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "react native mcp server"
+   ]
+  },
+  "@n0zer0d4y/vulcan-file-ops": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "vulcan-file-ops"
+   ]
+  },
+  "@n24q02m/better-notion-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "better notion mcp"
+   ]
+  },
+  "@nanoseil/mcp-bgtask": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp background task server"
+   ]
+  },
+  "@nekzus/mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "npm sentinel mcp"
+   ]
+  },
+  "@nervusdb/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "nervusdb mcp server"
+   ]
+  },
+  "@nftgo/mcp-nftgo-api": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "nftgoapi"
+   ]
+  },
+  "@nmeierpolys/mcp-structured-memory": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-structured-memory"
+   ]
+  },
+  "@nor2/heim-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "heim mcp"
+   ]
+  },
+  "@notionhq/notion-mcp-server": {
+   "versions": [
+    "1.8.1"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-notion-server"
+   ]
+  },
+  "@noveum-ai/mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "api-market"
+   ]
+  },
+  "@nuskey8/docs-rs-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "docs.rs MCP"
+   ]
+  },
+  "@octodet/elasticsearch-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "elasticsearch"
+   ]
+  },
+  "@octodet/keycloak-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "advanced keycloak mcp server"
+   ]
+  },
+  "@oevortex/ddg_search": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "duckduckgo search mcp"
+   ]
+  },
+  "@openbnb/mcp-server-airbnb": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "airbnb"
+   ]
+  },
+  "@openmcprouter/mcp-server-ghibli-video": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ghibli video mcp server"
+   ]
+  },
+  "@opensubtitles/mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "opensubtitles mcp server"
+   ]
+  },
+  "@opentofu/opentofu-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "opentofu"
+   ]
+  },
+  "@osmosis-agent-toolkit/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "osmosis"
+   ]
+  },
+  "@pdfdancer/pdfdancer-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pdfdancer-mcp"
+   ]
+  },
+  "@peakmojo/mcp-server-headless-gmail": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "gmail"
+   ]
+  },
+  "@peakmojo/mcp-server-zoom-noauth": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "zoom recordings no-auth"
+   ]
+  },
+  "@petah/gamemaker-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "gamemaker documentation mcp server"
+   ]
+  },
+  "@pickstar-2002/redis-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "redis mcp"
+   ]
+  },
+  "@pinecone-database/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pinecone"
+   ]
+  },
+  "@pinepaper.studio/mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pinepaper mcp server"
+   ]
+  },
+  "@pinkpixel/npm-helper-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "npm-helper"
+   ]
+  },
+  "@pinkpixel/taskflow-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "taskflow"
+   ]
+  },
+  "@pinkpixel/web-scout-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "web scout mcp server"
+   ]
+  },
+  "@playwright/mcp": {
+   "versions": [
+    "0.0.30"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "playwright"
+   ]
+  },
+  "@pnp/cli-microsoft365-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "cli for microsoft 365 mcp server"
+   ]
+  },
+  "@pokutuna/mcp-chrome-tabs": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "@pokutuna/mcp-chrome-tabs"
+   ]
+  },
+  "@portel/ncp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ncp - natural context provider"
+   ]
+  },
+  "@pyroprompts/any-chat-completions-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "chat-openai"
+   ]
+  },
+  "@r-huijts/opentk-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "opentk model context protocol server"
+   ]
+  },
+  "@r-mcp/google-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "google services mcp server"
+   ]
+  },
+  "@r-mcp/json-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "json mcp boilerplate"
+   ]
+  },
+  "@r3e/neo-n3-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "neo n3 mcp server"
+   ]
+  },
+  "@rafaelcg/adobe-commerce-dev-mcp": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "adobe-commerce-dev-mcp"
+   ]
+  },
+  "@ragrabbit/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "<name_of_your_documentation_no_spaces>"
+   ]
+  },
+  "@railway/mcp-server": {
+   "versions": [
+    "0.1.11"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "railway mcp server"
+   ]
+  },
+  "@rajbos/ghas-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ghas mcp server (github advanced security)"
+   ]
+  },
+  "@recraft-ai/mcp-recraft-server": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "recraft"
+   ]
+  },
+  "@reuvenorg/shadcn-registry-manager": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "shadcn registry manager"
+   ]
+  },
+  "@roomi-fields/notebooklm-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "notebooklm-mcp"
+   ]
+  },
+  "@rtuin/mcp-mermaid-validator": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mermaid-validator"
+   ]
+  },
+  "@rupeshpanwar/security-scanner-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "security scanner mcp server"
+   ]
+  },
+  "@sajithrw/mcp-mysql": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp mysql server"
+   ]
+  },
+  "@shoppercontextprotocol/local-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "scp local mcp server"
+   ]
+  },
+  "@shortcut/mcp": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "shortcut"
+   ]
+  },
+  "@shuhary/satorify-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "satori syntax mcp server"
+   ]
+  },
+  "@simonb97/server-win-cli": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "windows-cli"
+   ]
+  },
+  "@sinco-lab/mcp-youtube-transcript": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-youtube-transcript"
+   ]
+  },
+  "@smcphub/server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "smcphub server"
+   ]
+  },
+  "@snowfort/circuit-web": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "circuit-web"
+   ]
+  },
+  "@softeria/ms-365-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ms365"
+   ]
+  },
+  "@sourcebot/mcp": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "sourcebot"
+   ]
+  },
+  "@spark-apps/gmail-manager-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "gmail manager mcp"
+   ]
+  },
+  "@stacktown/webby": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "webby mcp server"
+   ]
+  },
+  "@stackzero-labs/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "stackzero-labs/mcp"
+   ]
+  },
+  "@starwind-ui/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "starwind ui mcp server"
+   ]
+  },
+  "@su-record/hi-ai": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "hi-ai"
+   ]
+  },
+  "@su-record/hi-gcloud": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "hi-gcloud"
+   ]
+  },
+  "@sumup/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "sumup mcp server"
+   ]
+  },
+  "@supabase/mcp-server-postgrest": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "todos"
+   ]
+  },
+  "@supavec/mcp-server": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "supavec"
+   ]
+  },
+  "@surajadsul02/mcp-server-salesforce": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "salesforce"
+   ]
+  },
+  "@swiftcode/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "swiftcode mcp server"
+   ]
+  },
+  "@sworddut/mcp-ffmpeg-helper": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp ffmpeg helper"
+   ]
+  },
+  "@sydneyassistent/codingbaby-browser-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "codingbaby-browser-mcp"
+   ]
+  },
+  "@sylphlab/pdf-reader-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pdf-reader-mcp"
+   ]
+  },
+  "@sylweriusz/mcp-neo4j-memory-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "neo4j memory server"
+   ]
+  },
+  "@taiyokimura/gemini-2-5-flash-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "gemini 2.5 flash image mcp"
+   ]
+  },
+  "@taiyokimura/majin-slide-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "majin slide mcp"
+   ]
+  },
+  "@taiyokimura/nextjs-docs-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "next.js docs mcp"
+   ]
+  },
+  "@taiyokimura/url-context-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "url-context-mcp mcp"
+   ]
+  },
+  "@tamago-labs/tapp-exchange-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "tapp exchange mcp server"
+   ]
+  },
+  "@team-jd/mcp-project-explorer": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "project-explorer"
+   ]
+  },
+  "@tencent-rtc/mcp": {
+   "versions": [
+    "1.4.7"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "tencent rtc mcp server"
+   ]
+  },
+  "@thinking-models/mcp-server": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "thinking-models"
+   ]
+  },
+  "@thirdstrandstudio/mcp-xpath": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-xpath"
+   ]
+  },
+  "@tkoba1974/mcp-kroki": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp kroki server"
+   ]
+  },
+  "@tokenizin/mcp-npx-fetch": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp npx fetch"
+   ]
+  },
+  "@topotal/waroom-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "waroom mcp"
+   ]
+  },
+  "@tothienbao6a0/figma-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "figma mcp server by bao to"
+   ]
+  },
+  "@translated/lara-mcp": {
+   "versions": [
+    "0.0.11"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "lara-translate"
+   ]
+  },
+  "@twodoorsdev/react-native-debugger-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "react native debugger mcp"
+   ]
+  },
+  "@upstash/context7-mcp": {
+   "versions": [
+    "1.0.14"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "context7 mcp"
+   ]
+  },
+  "@variflight-ai/tripmatch-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "variflight tripmatch mcp server"
+   ]
+  },
+  "@variflight-ai/variflight-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "variflight mcp server"
+   ]
+  },
+  "@verygoodplugins/mcp-local-wp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp server local wp"
+   ]
+  },
+  "@vilasone/api-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "api mcp server"
+   ]
+  },
+  "@visactor/vchart-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "vchart-mcp-server"
+   ]
+  },
+  "@vonage/vonage-mcp-server-api-bindings": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "vonage-mcp-server-api-bindings"
+   ]
+  },
+  "@waldzellai/clear-thought-onepointfive": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "clear thought 1.5"
+   ]
+  },
+  "@wangshunnn/bilibili-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "bilibili"
+   ]
+  },
+  "@web.worker/podcast-xyzrank-mcp": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "xyzRank"
+   ]
+  },
+  "@williamzujkowski/strudel-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "strudel mcp server"
+   ]
+  },
+  "@willianpinho/large-file-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "large file mcp server"
+   ]
+  },
+  "@winterjung/mcp-korean-spell": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "korean-spell-checker"
+   ]
+  },
+  "@wonderwhy-er/desktop-commander": {
+   "versions": [
+    "0.2.7"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "desktop commander mcp"
+   ]
+  },
+  "@wopal/mcp-server-hotnews": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-server-hotnews"
+   ]
+  },
+  "@xeroapi/xero-mcp-server": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "xero"
+   ]
+  },
+  "@xuejike/coding-db-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "database query mcp server"
+   ]
+  },
+  "@yeepay/yeepay-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "yeepay-mcp"
+   ]
+  },
+  "@yfme/weapp-dev-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "wechat mini program dev mcp"
+   ]
+  },
+  "@youdotcom-oss/mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "youdotcom-mcp-server"
+   ]
+  },
+  "a11y-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "a11y"
+   ]
+  },
+  "aaro-erp-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "aaro erp mcp server"
+   ]
+  },
+  "adb-mcp-tool": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "adb mcp server"
+   ]
+  },
+  "agentops-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "agentops-mcp"
+   ]
+  },
+  "ai-humanizer-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ai humanizer mcp server"
+   ]
+  },
+  "aim-guard-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "aim-guard-mcp"
+   ]
+  },
+  "alibabacloud-fc-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "alibaba cloud fc mcp server"
+   ]
+  },
+  "alpaca-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "alpaca api mcp server"
+   ]
+  },
+  "amplitude-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "amplitude-analytics"
+   ]
+  },
+  "android-debug-bridge-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "android debug bridge mcp"
+   ]
+  },
+  "android-mcp-toolkit": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "android-mcp-toolkit"
+   ]
+  },
+  "android-ui-assist-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "android ui assist mcp server"
+   ]
+  },
+  "apple-doc-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "apple doc mcp"
+   ]
+  },
+  "apple-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "apple mcp - enhanced edition"
+   ]
+  },
+  "arango-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "arangodb-account"
+   ]
+  },
+  "ask-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ask mcp"
+   ]
+  },
+  "asset-price-mcp": {
+   "versions": [
+    "(unpinned)",
+    "1.2.0"
+   ],
+   "n_servers": 2,
+   "servers": [
+    "asset_price_mcp",
+    "mongodb-crypto"
+   ]
+  },
+  "attio-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "attio mcp server"
+   ]
+  },
+  "aws-s3-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "s3 mcp server"
+   ]
+  },
+  "azmcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "azure mcp server"
+   ]
+  },
+  "bach-arxiv-paper-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "arxiv paper mcp"
+   ]
+  },
+  "bach-binance-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "binance cryptocurrency mcp"
+   ]
+  },
+  "bach-finmap-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "finmap mcp server"
+   ]
+  },
+  "backstage-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "backstage mcp server"
+   ]
+  },
+  "baloosearch-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "baloosearch mcp server"
+   ]
+  },
+  "bazi-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "bazi mcp"
+   ]
+  },
+  "bible-ko-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "bible korean mcp server"
+   ]
+  },
+  "bing-cn-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "bingcn"
+   ]
+  },
+  "bitrefill-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "bitrefill search and shop"
+   ]
+  },
+  "bmad-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "bmad-mcp"
+   ]
+  },
+  "bmad-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "bmad mcp server"
+   ]
+  },
+  "btcpayserver-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "btcpayserver-mcp"
+   ]
+  },
+  "caniuse-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "caniuse mcp"
+   ]
+  },
+  "canvas-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "canvas-mcp-server"
+   ]
+  },
+  "capacities-mcp-plus": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "capacities-mcp-plus"
+   ]
+  },
+  "chainfetch-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "chainfetch mcp server"
+   ]
+  },
+  "chaitin-ip-intelligence-search-tool": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "chaitin-ip-intelligence"
+   ]
+  },
+  "chrome-debug-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "chrome debug mcp server"
+   ]
+  },
+  "chrome-devtools-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "chrome devtools mcp"
+   ]
+  },
+  "chrome-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "chrome mcp server"
+   ]
+  },
+  "claude-code-dingtalk-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "claude code dingtalk mcp server"
+   ]
+  },
+  "claude-mermaid": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "claude-mermaid"
+   ]
+  },
+  "claude-sessions-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "claude-sessions-mcp"
+   ]
+  },
+  "clinicaltrialsgov-mcp-server": {
+   "versions": [
+    "1.0.8"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "clinicaltrials-mcp-server"
+   ]
+  },
+  "clj-kondo-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "clj-kondo"
+   ]
+  },
+  "code-context-provider-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "code-context-provider-mcp"
+   ]
+  },
+  "code-review-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ndlovu code reviewer"
+   ]
+  },
+  "code-screenshot-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "code screenshot generator"
+   ]
+  },
+  "components-build-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "components build mcp"
+   ]
+  },
+  "content-fetcher-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "content fetcher mcp"
+   ]
+  },
+  "context-engine": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "contextengine mcp server"
+   ]
+  },
+  "cos-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "cos-mcp"
+   ]
+  },
+  "crash-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "crash - cascaded reasoning with adaptive step handling"
+   ]
+  },
+  "css-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "css mcp server"
+   ]
+  },
+  "cursor-chat-history-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "cursor conversations mcp server"
+   ]
+  },
+  "cursor-talk-to-figma-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "talk to figma mcp"
+   ]
+  },
+  "cursor10x-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "cursor10x mcp"
+   ]
+  },
+  "cut-copy-paste-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "cut-copy-paste clipboard server"
+   ]
+  },
+  "datadog-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "datadog"
+   ]
+  },
+  "dataforseo-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "dataforseo mcp server"
+   ]
+  },
+  "datagovmy-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "data.gov.my mcp server"
+   ]
+  },
+  "dbeaver-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "dbeaver mcp server"
+   ]
+  },
+  "deepseek-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "deepseek"
+   ]
+  },
+  "defi-trading-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "defi trading agent mcp server"
+   ]
+  },
+  "deno": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "code-runner"
+   ]
+  },
+  "desearch-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "desearch mcp server"
+   ]
+  },
+  "devpipe-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "devpipe mcp server"
+   ]
+  },
+  "dhis2-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "dhis2 mcp server"
+   ]
+  },
+  "diff-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "diff"
+   ]
+  },
+  "dify-knowledge-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "dify knowledge mcp server"
+   ]
+  },
+  "dkmaker-mcp-function-app-tester": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-function-app-tester"
+   ]
+  },
+  "doc-ops-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "doc-ops-mcp"
+   ]
+  },
+  "drawio-mcp": {
+   "versions": [
+    "1.6.0"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "draw.io mcp server"
+   ]
+  },
+  "dynamic-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "dynamic mcp server"
+   ]
+  },
+  "echarts-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "echarts mcp"
+   ]
+  },
+  "element-ui-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "element-ui mcp server"
+   ]
+  },
+  "elementor-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "elementor mcp"
+   ]
+  },
+  "ember-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ember mcp server"
+   ]
+  },
+  "espn-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "espn mcp server"
+   ]
+  },
+  "etherscan-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "etherscan mcp"
+   ]
+  },
+  "exa-mcp-server": {
+   "versions": [
+    "0.3.10"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "exa"
+   ]
+  },
+  "excalidraw-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "excalidraw mcp server"
+   ]
+  },
+  "excel-to-pdf-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "excel-to-pdf-mcp"
+   ]
+  },
+  "fabric-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fabric mcp server"
+   ]
+  },
+  "fal-image-video-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fal image/video mcp server"
+   ]
+  },
+  "fast-filesystem-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fast-filesystem-mcp"
+   ]
+  },
+  "feedback-loop-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "feedback-loop-mcp"
+   ]
+  },
+  "feishu-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "feishu-mcp"
+   ]
+  },
+  "find-files-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "find-files"
+   ]
+  },
+  "firecrawl-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "firecrawl"
+   ]
+  },
+  "flightradar-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "flightradar mcp server"
+   ]
+  },
+  "fluxui-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "flux ui mcp server"
+   ]
+  },
+  "flyonui-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "flyonui mcp server"
+   ]
+  },
+  "fpl-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fpl mcp server"
+   ]
+  },
+  "fund-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fund mcp server"
+   ]
+  },
+  "gemini-mcp-tool-windows-fixed": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "gemini cli mcp server"
+   ]
+  },
+  "get_notebook_mcp_server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "get notes mcp server"
+   ]
+  },
+  "git-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "gitmcp"
+   ]
+  },
+  "github-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "github repository mcp server"
+   ]
+  },
+  "go-playground-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "go playground mcp server"
+   ]
+  },
+  "godot-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "godot mcp"
+   ]
+  },
+  "goplus-mcp": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "goplus"
+   ]
+  },
+  "graylog-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "graylog mcp server"
+   ]
+  },
+  "grpc-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "gRPC MCP Server"
+   ]
+  },
+  "hal-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "hal (http api layer)"
+   ]
+  },
+  "headlesshost-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "kapiti mcp server"
+   ]
+  },
+  "health-reminder-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "health reminder mcp server"
+   ]
+  },
+  "hefeng-mcp-weather": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "hefeng-weather"
+   ]
+  },
+  "heroicons-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "heroicons"
+   ]
+  },
+  "hk-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "hk-mcp"
+   ]
+  },
+  "hourei-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "hourei mcp server"
+   ]
+  },
+  "howtocook-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "howtocook-mcp server"
+   ]
+  },
+  "https://github.com/geobio/smitheryai-mcp-servers-weather": {
+   "versions": [
+    "(url)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "weather"
+   ]
+  },
+  "hubble-mcp-tool": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "hubble-tool"
+   ]
+  },
+  "hyperbrowser-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "hyperbrowser"
+   ]
+  },
+  "interactive-brokers-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "interactive brokers mcp server"
+   ]
+  },
+  "interactive-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "interactive"
+   ]
+  },
+  "iterm-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "iterm-mcp"
+   ]
+  },
+  "its-just-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "its-just-ui MCP Server"
+   ]
+  },
+  "jgrants-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "jgrants-mcp"
+   ]
+  },
+  "jiechau-mcp-vincent-says": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "vincent says mcp server"
+   ]
+  },
+  "jina-ai-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "jina ai mcp server"
+   ]
+  },
+  "jinko-mcp-dev": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "jinko-travel"
+   ]
+  },
+  "js-sandbox-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "javascript sandbox mcp server"
+   ]
+  },
+  "knbn-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "knbn mcp server"
+   ]
+  },
+  "kpc-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "kpc component library mcp server"
+   ]
+  },
+  "lighthouse-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "lighthouse"
+   ]
+  },
+  "linear-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "linear"
+   ]
+  },
+  "linkedapi-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "linked api mcp"
+   ]
+  },
+  "llm-token-tracker": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "llm-token-tracker"
+   ]
+  },
+  "llv-helix": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "llv helix framework"
+   ]
+  },
+  "local-history-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "local history mcp server"
+   ]
+  },
+  "lumbretravel-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "lumbretravel mcp server"
+   ]
+  },
+  "maya-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "maya mcp server"
+   ]
+  },
+  "mcp-3d-printer-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp 3d printer server"
+   ]
+  },
+  "mcp-api-client": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp yaml api"
+   ]
+  },
+  "mcp-apifox": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "apifox"
+   ]
+  },
+  "mcp-arr-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp *arr server"
+   ]
+  },
+  "mcp-ascii-charts": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp ascii charts"
+   ]
+  },
+  "mcp-chain-of-thought": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-chain-of-thought"
+   ]
+  },
+  "mcp-character-tools": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp character tools"
+   ]
+  },
+  "mcp-chinese-fortune": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "chinese fortune analysis system (bazi)"
+   ]
+  },
+  "mcp-cookie-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "cookie"
+   ]
+  },
+  "mcp-crew-risk": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-crew-risk"
+   ]
+  },
+  "mcp-deep-research": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp deep research"
+   ]
+  },
+  "mcp-deepwebresearch": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp web research server"
+   ]
+  },
+  "mcp-deepwiki": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-deepwiki"
+   ]
+  },
+  "mcp-demo": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp project query server"
+   ]
+  },
+  "mcp-discord": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-discord"
+   ]
+  },
+  "mcp-docs-provider": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp docs provider"
+   ]
+  },
+  "mcp-echarts": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp echarts"
+   ]
+  },
+  "mcp-email": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "email mcp server"
+   ]
+  },
+  "mcp-fal-ai-image": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fal-ai-image"
+   ]
+  },
+  "mcp-fhir-tools": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fhir-tools"
+   ]
+  },
+  "mcp-git": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "git mcp server"
+   ]
+  },
+  "mcp-git-commit-aider": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "git-commit-aider"
+   ]
+  },
+  "mcp-github-issue": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "github-issue"
+   ]
+  },
+  "mcp-github-project-manager": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "github-project-manager"
+   ]
+  },
+  "mcp-graphql": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "graphql mcp server"
+   ]
+  },
+  "mcp-graphql-tools": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "graphql"
+   ]
+  },
+  "mcp-guide": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-guide"
+   ]
+  },
+  "mcp-hacker-news": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp hacker news"
+   ]
+  },
+  "mcp-hello-world": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp hello world"
+   ]
+  },
+  "mcp-hub-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp hub mcp server"
+   ]
+  },
+  "mcp-huggingfetch": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp huggingfetch"
+   ]
+  },
+  "mcp-image-downloader": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-image-downloader"
+   ]
+  },
+  "mcp-image-extractor": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "image-extractor"
+   ]
+  },
+  "mcp-interactsh": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp interactsh bridge"
+   ]
+  },
+  "mcp-jira-stdio": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-jira-stdio"
+   ]
+  },
+  "mcp-jupyter": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp jupyter server"
+   ]
+  },
+  "mcp-local-rag": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "local rag"
+   ]
+  },
+  "mcp-macaco-playwright": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp macaco playwright"
+   ]
+  },
+  "mcp-mailtrap": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mailtrap email sending"
+   ]
+  },
+  "mcp-marketing-site": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "marketing master – landing page evaluator"
+   ]
+  },
+  "mcp-maven-deps": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "maven-deps-server"
+   ]
+  },
+  "mcp-memory-sqlite": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp memory sqlite"
+   ]
+  },
+  "mcp-minecraft-remote": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "minecraft-remote"
+   ]
+  },
+  "mcp-mongodb-atlas": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "atlas"
+   ]
+  },
+  "mcp-mysql-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mysql database server"
+   ]
+  },
+  "mcp-neovim-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp neovim server"
+   ]
+  },
+  "mcp-openverse": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "@mcp/openverse"
+   ]
+  },
+  "mcp-probe-kit": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp probe kit"
+   ]
+  },
+  "mcp-property-valuation-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "property valuation server"
+   ]
+  },
+  "mcp-quickbase": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "quickbase mcp server"
+   ]
+  },
+  "mcp-recherche-entreprises": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp recherche d'entreprises"
+   ]
+  },
+  "mcp-remote": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 3,
+   "servers": [
+    "build-vault",
+    "keywordspeopleuse",
+    "needle"
+   ]
+  },
+  "mcp-request": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "wallet-mcp"
+   ]
+  },
+  "mcp-ripgrep": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ripgrep"
+   ]
+  },
+  "mcp-sequentialthinking-tools": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-sequentialthinking-tools"
+   ]
+  },
+  "mcp-server-bear": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-server-bear"
+   ]
+  },
+  "mcp-server-clash-of-clans": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mc-server-clash-of-clans"
+   ]
+  },
+  "mcp-server-code-runner": {
+   "versions": [
+    "0.1.7"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-server-code-runner"
+   ]
+  },
+  "mcp-server-commands": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-server-commands"
+   ]
+  },
+  "mcp-server-dictionary": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "cambridge dictionary mcp server"
+   ]
+  },
+  "mcp-server-ens": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ens mcp server"
+   ]
+  },
+  "mcp-server-esign": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "e签宝 MCP Server"
+   ]
+  },
+  "mcp-server-example": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "bun fun mcp server"
+   ]
+  },
+  "mcp-server-express-maxbin": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-server-express-maxbin"
+   ]
+  },
+  "mcp-server-fakestore": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fake store api mcp server"
+   ]
+  },
+  "mcp-server-fear-greed": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fear & greed index mcp server"
+   ]
+  },
+  "mcp-server-filesystem-smart": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp smart filesystem server"
+   ]
+  },
+  "mcp-server-gsc": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "google search console mcp server"
+   ]
+  },
+  "mcp-server-kubernetes": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "kubernetes"
+   ]
+  },
+  "mcp-server-liuyao": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "liuyao"
+   ]
+  },
+  "mcp-server-mcp-registry": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp registry server"
+   ]
+  },
+  "mcp-server-nationalparks": {
+   "versions": [
+    "1.0.1"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "national parks"
+   ]
+  },
+  "mcp-server-qiita": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "qiita api mcp server"
+   ]
+  },
+  "mcp-server-rijksmuseum": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "rijksmuseum-server"
+   ]
+  },
+  "mcp-server-rss3": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "rss3"
+   ]
+  },
+  "mcp-server-siri-shortcuts": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "siri-shortcuts"
+   ]
+  },
+  "mcp-server-taskwarrior": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "taskwarrior"
+   ]
+  },
+  "mcp-server-theme-parks": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-server-theme-parks"
+   ]
+  },
+  "mcp-server-todotxt": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp todo.txt integration"
+   ]
+  },
+  "mcp-server-weread": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-server-weread"
+   ]
+  },
+  "mcp-shellkeeper": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp shellkeeper"
+   ]
+  },
+  "mcp-starter": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "s/mcp - stern model context protocol"
+   ]
+  },
+  "mcp-system-info": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "system info mcp server"
+   ]
+  },
+  "mcp-system-infra": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "intelligent architecture recommendation engine"
+   ]
+  },
+  "mcp-tasks": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp tasks"
+   ]
+  },
+  "mcp-time-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "time"
+   ]
+  },
+  "mcp-trends-hub": {
+   "versions": [
+    "1.6.2"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "trends-hub"
+   ]
+  },
+  "mcp-tung-shing": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "tung-shing"
+   ]
+  },
+  "mcp-uber": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp uber server"
+   ]
+  },
+  "mcp-utility-tools": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp utility tools"
+   ]
+  },
+  "mcp-vsc-button-gen": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "vs code mcp button generator"
+   ]
+  },
+  "mcp-weather-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp weather server"
+   ]
+  },
+  "mcp-web-inspector": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "web inspector mcp"
+   ]
+  },
+  "mcp-web3-stats": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "dune api mcp server"
+   ]
+  },
+  "mcp-websearch-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp websearch server"
+   ]
+  },
+  "mcp-wordcounter": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-wordcounter"
+   ]
+  },
+  "mcp-workflowy": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "workflowy"
+   ]
+  },
+  "mcp-wsl-exec": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-wsl-exec"
+   ]
+  },
+  "mcp-yapi-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-yapi-server"
+   ]
+  },
+  "mcp4gql": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp4gql"
+   ]
+  },
+  "memcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "meMCP - Memory-Enhanced Model Context Protocol"
+   ]
+  },
+  "meme-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "meme"
+   ]
+  },
+  "memory-bank-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "memoryBank"
+   ]
+  },
+  "metatag-genie": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "metataggenie"
+   ]
+  },
+  "metmuseum-mcp": {
+   "versions": [
+    "0.9.2"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "metmuseum-mcp"
+   ]
+  },
+  "misttrack": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "misttrack"
+   ]
+  },
+  "mmnt-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mmnt"
+   ]
+  },
+  "mongodb-mcp-server": {
+   "versions": [
+    "0.2.0"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mongodb"
+   ]
+  },
+  "mssql-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mssql mcp server"
+   ]
+  },
+  "multicluster-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ocm mcp server"
+   ]
+  },
+  "my-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mymcpserver"
+   ]
+  },
+  "n8n-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "n8n-mcp"
+   ]
+  },
+  "n8n-workflow-builder-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "n8n-workflow-builder-mcp"
+   ]
+  },
+  "nano-banana-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "nano-banana-mcp"
+   ]
+  },
+  "nascoder-perplexity-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "nascoder perplexity mcp ultra-pro"
+   ]
+  },
+  "ngss-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ngss mcp server"
+   ]
+  },
+  "nlobby-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "nlobby"
+   ]
+  },
+  "node-code-sandbox-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "node.js sandbox mcp server"
+   ]
+  },
+  "notion-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "notion-mcp-server"
+   ]
+  },
+  "noverload-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "noverload mcp server"
+   ]
+  },
+  "npm-search-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "npm-search-mcp-server"
+   ]
+  },
+  "nrepl-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "nREPL MCP Server"
+   ]
+  },
+  "ns-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ns-server"
+   ]
+  },
+  "obsidian-local-rest-api-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "obsidian local rest api mcp server"
+   ]
+  },
+  "odinfun-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "odinfun-mcp"
+   ]
+  },
+  "ollama-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ollama mcp server"
+   ]
+  },
+  "openrouter-image-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "openrouter image mcp server"
+   ]
+  },
+  "openspec-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "openspec mcp"
+   ]
+  },
+  "opik-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "opik-mcp-server"
+   ]
+  },
+  "oracle-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "oracle mcp server"
+   ]
+  },
+  "oss-mcp": {
+   "versions": [
+    "1.0.3"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "oss-mcp"
+   ]
+  },
+  "pabal-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pabal mcp"
+   ]
+  },
+  "pdf-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pdf-tools mcp server"
+   ]
+  },
+  "pdftotext-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pdftotext mcp server"
+   ]
+  },
+  "persistent-terminal-mcp": {
+   "versions": [
+    "1.0.9"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "persistent terminal mcp server"
+   ]
+  },
+  "phonepi-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "phonepi-mcp"
+   ]
+  },
+  "picgo-uploader": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "picgo-ipfs-uploader"
+   ]
+  },
+  "pickapicon-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pickapicon-mcp"
+   ]
+  },
+  "plantuml-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "plantuml mcp server"
+   ]
+  },
+  "playwright-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "playwright mcp"
+   ]
+  },
+  "plex-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "plex mcp server"
+   ]
+  },
+  "pluggedin-random-number-generator-mcp": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "random-generator"
+   ]
+  },
+  "pokemon-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "Pokémon MCP Server"
+   ]
+  },
+  "pokemon-paste-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pokemon-paste"
+   ]
+  },
+  "pokemon-vgc-calc-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "Pokémon VGC Damage Calculator MCP Server"
+   ]
+  },
+  "prd-creator-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "prd creator mcp server"
+   ]
+  },
+  "primeng-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "primeng mcp server"
+   ]
+  },
+  "productboard-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "productboard"
+   ]
+  },
+  "ptcg-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pokemon tcg card search mcp"
+   ]
+  },
+  "pushover-mcp": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pushover"
+   ]
+  },
+  "quick-chart-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "quickchart-mcp-server"
+   ]
+  },
+  "qweather-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "qweather-mcp"
+   ]
+  },
+  "rabbitmq-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "rabbitmq mcp server"
+   ]
+  },
+  "rag-memory-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "rag memory mcp"
+   ]
+  },
+  "random-org-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "random.org mcp server"
+   ]
+  },
+  "rdw-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "rdw mcp server"
+   ]
+  },
+  "react-native-upgrader-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "react native upgrader mcp"
+   ]
+  },
+  "reactbits-dev-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "reactbits mcp server"
+   ]
+  },
+  "readwise-mcp-enhanced": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "readwise mcp enhanced"
+   ]
+  },
+  "reddit-mcp-buddy": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "reddit buddy mcp"
+   ]
+  },
+  "redis-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "redis"
+   ]
+  },
+  "ref-tools-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ref"
+   ]
+  },
+  "repomix": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "repomix"
+   ]
+  },
+  "rgb-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "rgb lightning network mcp server"
+   ]
+  },
+  "rt-prompt-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "rt-prompt-mcp"
+   ]
+  },
+  "runway-api-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "runway api mcp server"
+   ]
+  },
+  "sbwsz-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "sbwsz"
+   ]
+  },
+  "scan-qrcode-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "scan qrcode mcp server"
+   ]
+  },
+  "search1api-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "search1api"
+   ]
+  },
+  "semantic-pen-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "semantic pen mcp server"
+   ]
+  },
+  "server-dice-roll": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "dice"
+   ]
+  },
+  "server-perplexity-ask": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "perplexity-ask"
+   ]
+  },
+  "sf-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "salesforce cli mcp server"
+   ]
+  },
+  "sfcc-dev-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "sfcc development mcp server"
+   ]
+  },
+  "sftp-ssh-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "sftp-ssh-mcp"
+   ]
+  },
+  "shadowgit-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "shadowgit mcp server"
+   ]
+  },
+  "slack-mcp-server": {
+   "versions": [
+    "1.1.23"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "slack"
+   ]
+  },
+  "slopwatch-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "slopwatch"
+   ]
+  },
+  "smart-e2b": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "smart-e2b"
+   ]
+  },
+  "smart-search-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "smart search mcp"
+   ]
+  },
+  "source-map-parser-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "source_map_parser"
+   ]
+  },
+  "spec-coding-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "spec-driven development mcp server"
+   ]
+  },
+  "spec-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "spec mcp server"
+   ]
+  },
+  "spec-workflow-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "spec workflow mcp"
+   ]
+  },
+  "star-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "star mcp"
+   ]
+  },
+  "steam-review-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "steam-review-mcp"
+   ]
+  },
+  "stock-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "stock-mcp-server"
+   ]
+  },
+  "structured-thinking": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "structured-thinking"
+   ]
+  },
+  "structured-workflow-mcp": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "structured-workflow"
+   ]
+  },
+  "supergateway": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "opgg-mcp"
+   ]
+  },
+  "swagger-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "swagger mcp server"
+   ]
+  },
+  "swell-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "boilerplate mcp server"
+   ]
+  },
+  "swit-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "swit mcp server"
+   ]
+  },
+  "task-orchestrator-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "task-orchestrator-mcp"
+   ]
+  },
+  "taskqueue-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "taskqueue"
+   ]
+  },
+  "tasksync-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "tasksync-mcp"
+   ]
+  },
+  "terraform-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "terraform-registry"
+   ]
+  },
+  "thinkingcap": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "thinkingcap"
+   ]
+  },
+  "tongyi-wanx-mcp-server": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "tongyi-wanxiang"
+   ]
+  },
+  "tree-hugger-js-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "tree-hugger-js mcp server"
+   ]
+  },
+  "ts-def-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "typescript definition finder"
+   ]
+  },
+  "tv-recommender-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "tv-recommender-mcp-server"
+   ]
+  },
+  "twenty-crm-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "twenty crm mcp server"
+   ]
+  },
+  "twitterapi-io-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "twitterapi-docs-mcp"
+   ]
+  },
+  "tx-cos-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "tencent cloud cos mcp server"
+   ]
+  },
+  "typesense-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "typesense"
+   ]
+  },
+  "typst-universe-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "typst universe mcp server"
+   ]
+  },
+  "unreal-engine-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "unreal engine mcp server"
+   ]
+  },
+  "usensedata-mcp-server-query-china-company": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "usensedata-mcp-server-query-china-company"
+   ]
+  },
+  "usql-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "usql mcp server"
+   ]
+  },
+  "voicepeak-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "voicepeak mcp server"
+   ]
+  },
+  "vrchat-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "vrchat-mcp"
+   ]
+  },
+  "vscode-as-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "vscode-java"
+   ]
+  },
+  "vtex-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "vtex"
+   ]
+  },
+  "web-scraper-mcp-puppeteer": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "web scraper mcp server"
+   ]
+  },
+  "webdev-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "webdev"
+   ]
+  },
+  "whistle-mcp-tool": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "whistle-mcp"
+   ]
+  },
+  "wordpress-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "wordpress mcp"
+   ]
+  },
+  "wttr-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "hefeng weather mcp server"
+   ]
+  },
+  "x-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "x mcp server"
+   ]
+  },
+  "xcode-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "xcode mcp server"
+   ]
+  },
+  "xcodebuildmcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "sl-test"
+   ]
+  },
+  "xmind-generator-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "xmind generator mcp server"
+   ]
+  },
+  "yapi-auto-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "yapi-auto-mcp"
+   ]
+  },
+  "yapi-get-interface-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "yapi interface mcp server"
+   ]
+  },
+  "ygocdb-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ygocdb-mcp"
+   ]
+  },
+  "youtube-subtitle-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "youtube subtitle mcp server"
+   ]
+  },
+  "zapmail-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "zapmail mcp server"
+   ]
+  },
+  "zendesk-mcp-server-jurre": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "zendesk api mcp server"
+   ]
+  },
+  "zerocracy-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "zerocracy mcp server"
+   ]
+  },
+  "mcp-knowledge-graph": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "memory-aim"
+   ]
+  },
+  "@smithery/cli": {
+   "versions": [
+    "1.6.7"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "national-weather-service-alt"
+   ]
+  },
+  "@aicloud360/360-ai-cloud-disk-mcp": {
+   "versions": [
+    "0.8.39"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "360 AI Cloud Drive MCP Server"
+   ]
+  },
+  "bun": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "everything mcp server"
+   ]
+  }
+ },
+ "pypi": {
+  "a2a-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "a2a"
+   ]
+  },
+  "agent-knowledge-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "agent-knowledge"
+   ]
+  },
+  "agora-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "agora"
+   ]
+  },
+  "akshare-one-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "akshare-one-mcp"
+   ]
+  },
+  "amazing-marvin-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "amazing marvin mcp server"
+   ]
+  },
+  "arxiv-mcp-server": {
+   "versions": [
+    "0.2.11"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "arxiv-mcp-server"
+   ]
+  },
+  "atla-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "atla-mcp-server"
+   ]
+  },
+  "awslabs.aws-documentation-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "aws documentation mcp server"
+   ]
+  },
+  "awslabs.aws-iac-mcp-server": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "awslabs-cdk-mcp-server"
+   ]
+  },
+  "bangumi-tv": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "bangumi tv mcp service"
+   ]
+  },
+  "basic-memory": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "basic-memory"
+   ]
+  },
+  "caltrain-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "caltrain"
+   ]
+  },
+  "char-index-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "char-index-mcp"
+   ]
+  },
+  "chatgpt-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "chatgpt"
+   ]
+  },
+  "chuk-mcp-vfs": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "chuk-mcp-vfs"
+   ]
+  },
+  "claude-skills-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "claude-skills-mcp"
+   ]
+  },
+  "code-index-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "code-index"
+   ]
+  },
+  "code2postman-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "code2postman-mcp"
+   ]
+  },
+  "codex-bridge": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "codex bridge"
+   ]
+  },
+  "cortexgraph": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mnemex"
+   ]
+  },
+  "dappier-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "dappier"
+   ]
+  },
+  "duckduckgo-mcp-server": {
+   "versions": [
+    "0.1.1"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "duckduckgo-search"
+   ]
+  },
+  "email-send-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "email send/receive mcp server"
+   ]
+  },
+  "encoding-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "encoding mcp server"
+   ]
+  },
+  "f1-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "formula one mcp server (python)"
+   ]
+  },
+  "fastdomaincheck-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fastdomaincheck"
+   ]
+  },
+  "finance-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "financemcp"
+   ]
+  },
+  "flyworks-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "flyworks"
+   ]
+  },
+  "fpl-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fantasy premier league mcp server"
+   ]
+  },
+  "freecad-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "freecad mcp"
+   ]
+  },
+  "gemini-bridge": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "gemini-bridge"
+   ]
+  },
+  "git+https://github.com/geobio/PubMed-MCP-Server.git": {
+   "versions": [
+    "(url)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pubmed"
+   ]
+  },
+  "github-chat-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "github-chat"
+   ]
+  },
+  "gmail-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "gmail mcp"
+   ]
+  },
+  "goodday-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "goodday-mcp"
+   ]
+  },
+  "huggingface-daily-paper-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "huggingface daily papers"
+   ]
+  },
+  "jewei-mysql-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "jewei-mysql"
+   ]
+  },
+  "jinni-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "jinni"
+   ]
+  },
+  "jnews-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "juhe news mcp server"
+   ]
+  },
+  "just-prompt": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "just-prompt"
+   ]
+  },
+  "logfire-mcp": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "logfire"
+   ]
+  },
+  "macos-notification-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "macos-notification-mcp"
+   ]
+  },
+  "mcp-applemusic": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "iTunesControlServer"
+   ]
+  },
+  "mcp-document-parse": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp document parse tool"
+   ]
+  },
+  "mcp-git-commit-generator": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp git commit generator"
+   ]
+  },
+  "mcp-hn": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-hn"
+   ]
+  },
+  "mcp-jina-reader": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "jina_fetch"
+   ]
+  },
+  "mcp-jira-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp jira server"
+   ]
+  },
+  "mcp-kali-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-kali-server"
+   ]
+  },
+  "mcp-meituan-ip": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-meituan-ip"
+   ]
+  },
+  "mcp-newsnow": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "get_news"
+   ]
+  },
+  "mcp-ollama": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ollama"
+   ]
+  },
+  "mcp-pandoc": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-pandoc"
+   ]
+  },
+  "mcp-perplexity": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-perplexity"
+   ]
+  },
+  "mcp-postgresql-ops": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "postgresql-ops"
+   ]
+  },
+  "mcp-request": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp http requests"
+   ]
+  },
+  "mcp-run-python-code": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "python code runner"
+   ]
+  },
+  "mcp-sentry-custom": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "sentry"
+   ]
+  },
+  "mcp-server-alteryx": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ayx-mcp-wrapper"
+   ]
+  },
+  "mcp-server-apache-airflow": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-server-apache-airflow"
+   ]
+  },
+  "mcp-server-builder": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp server builder"
+   ]
+  },
+  "mcp-server-calculator": {
+   "versions": [
+    "0.2.0"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "calculator"
+   ]
+  },
+  "mcp-server-fetch": {
+   "versions": [
+    "2025.4.7"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "fetch"
+   ]
+  },
+  "mcp-server-git": {
+   "versions": [
+    "2025.7.1"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "git"
+   ]
+  },
+  "mcp-server-mikrotik": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mikrotik"
+   ]
+  },
+  "mcp-server-restart": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-server-restart"
+   ]
+  },
+  "mcp-server-twelve-data": {
+   "versions": [
+    "0.2.5"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "twelve data mcp server"
+   ]
+  },
+  "mcp-simple-arxiv": {
+   "versions": [
+    "0.2.3"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-simple-arxiv"
+   ]
+  },
+  "mcp-slicer": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "slicer"
+   ]
+  },
+  "mcp-tinybird": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp-tinybird"
+   ]
+  },
+  "mcp-wyze-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp wyze server"
+   ]
+  },
+  "mcp-yahoo-finance": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "yahoo-finance"
+   ]
+  },
+  "mcp_duty_pharma": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mcp duty pharma"
+   ]
+  },
+  "mcpkmn-showdown": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pokemon showdown mcp server"
+   ]
+  },
+  "mediawiki-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mediawiki-mcp-server"
+   ]
+  },
+  "meilisearch-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "meilisearch"
+   ]
+  },
+  "mem0-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mem0 mcp server"
+   ]
+  },
+  "meta-ads-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "meta ads mcp"
+   ]
+  },
+  "mongo-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mongo-mcp"
+   ]
+  },
+  "mureka-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "mureka"
+   ]
+  },
+  "nacos-mcp-router": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "nacos-mcp-router"
+   ]
+  },
+  "osm-mcp-server": {
+   "versions": [
+    "0.1.1"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "open-streetmap-mcp"
+   ]
+  },
+  "oura-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "oura mcp server"
+   ]
+  },
+  "outscraper-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "outscraper mcp server"
+   ]
+  },
+  "owl-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "owl-mcp"
+   ]
+  },
+  "oxylabs-mcp": {
+   "versions": [
+    "0.4.1"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "oxylabs"
+   ]
+  },
+  "pdfco-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pdf.co mcp server"
+   ]
+  },
+  "penpot-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "penpot"
+   ]
+  },
+  "perfetto-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "perfetto mcp"
+   ]
+  },
+  "phone-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "phone-mcp"
+   ]
+  },
+  "pihole-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "pi-hole mcp server"
+   ]
+  },
+  "product-hunt-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "product-hunt-mcp"
+   ]
+  },
+  "public-apis-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "public-apis-mcp"
+   ]
+  },
+  "qlik-sense-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "qlik sense mcp server"
+   ]
+  },
+  "r-adb-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "enhanced adb mcp server"
+   ]
+  },
+  "random-number-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "random-number"
+   ]
+  },
+  "rbt-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "knowledgesmith mcp"
+   ]
+  },
+  "rhinomcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "rhino"
+   ]
+  },
+  "scenext-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "edu_video_gen"
+   ]
+  },
+  "semantic-scholar-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "semantic scholar mcp server"
+   ]
+  },
+  "seo-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "seo mcp"
+   ]
+  },
+  "simctl-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "simctl"
+   ]
+  },
+  "sitemap-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "sitemap"
+   ]
+  },
+  "sp-database-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "sp database mcp server"
+   ]
+  },
+  "ssh-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ssh read-only mcp server"
+   ]
+  },
+  "strands-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "strands mcp server"
+   ]
+  },
+  "strava-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "strava"
+   ]
+  },
+  "terminal-control-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "terminal control mcp"
+   ]
+  },
+  "tripo-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "tripo-mcp"
+   ]
+  },
+  "vizro-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "vizro-mcp"
+   ]
+  },
+  "vmware-fusion-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "vmware fusion mcp server"
+   ]
+  },
+  "wayback-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "wayback machine mcp server"
+   ]
+  },
+  "web-research-assistant": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "web research assistant"
+   ]
+  },
+  "wuwa-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "wuwa-mcp-server"
+   ]
+  },
+  "xctools-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "xcinstruments"
+   ]
+  },
+  "ydb-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "ydb"
+   ]
+  },
+  "yfmcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "yahoo finance mcp server"
+   ]
+  },
+  "yop-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "yop-mcp"
+   ]
+  },
+  "yourware-mcp": {
+   "versions": [
+    "latest"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "yourware-mcp"
+   ]
+  },
+  "youtube-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "youtube mcp"
+   ]
+  },
+  "zapcap-mcp-server": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "zapcap-mcp-server"
+   ]
+  },
+  "zotero-mcp": {
+   "versions": [
+    "(unpinned)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "zotero"
+   ]
+  },
+  "git+https://github.com/davanstrien/hub-semantic-search-mcp.git": {
+   "versions": [
+    "(url)"
+   ],
+   "n_servers": 1,
+   "servers": [
+    "huggingface-hub-search-alt"
+   ]
+  }
+ },
+ "python_modules": {
+  "mcp_reddit.reddit_fetcher": [
+   "reddit-mcp"
+  ],
+  "mcp_server_time": [
+   "time-mcp"
+  ],
+  "mcpuniverse.mcp.servers.blender": [
+   "blender"
+  ],
+  "mcpuniverse.mcp.servers.date": [
+   "date"
+  ],
+  "mcpuniverse.mcp.servers.echo": [
+   "echo"
+  ],
+  "mcpuniverse.mcp.servers.serper_search": [
+   "google-search"
+  ],
+  "mcpuniverse.mcp.servers.yahoo_finance": [
+   "yfinance"
+  ],
+  "paper_search_mcp.server": [
+   "paper search"
+  ],
+  "unit_converter_mcp.server": [
+   "unit converter"
+  ],
+  "weather_mcp_server.main": [
+   "weather data"
+  ],
+  "wikipedia_mcp": [
+   "wikipedia"
+  ]
+ },
+ "binaries": {
+  "github-mcp-server": [
+   "github"
+  ]
+ },
+ "local_paths": {
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/bibliomantic-mcp-server": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/biomcp": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/call-for-papers-mcp/call-for-papers-mcp-main": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/car-price-mcp-main": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/dexpaprika-mcp": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/fruityvice-mcp": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/game-trends-mcp": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/hugeicons-mcp-server": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/huggingface-mcp-server": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/math-mcp": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/mcp-nixos": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/mcp-osint-server": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/mcp-reddit": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/medcalc": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/movie-recommender-mcp/movie-reccomender-mcp": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/nasa-mcp": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/okx-mcp": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/openapi-mcp-server": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/paper-search-mcp": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/scientific_computation_mcp": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/time-mcp": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/unit-converter-mcp": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/weather_mcp": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/bibliomantic-mcp-server/bibliomantic_server.py": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/hugeicons-mcp-server/build/index.js": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/math-mcp/build/index.js": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/okx-mcp/build/index.js": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/openapi-mcp-server/index.js": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/nasa-mcp/main.py": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/mcp-nixos/mcp_nixos/server.py": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/mcp-osint-server/mcp_osint_server/mcp_osint_server/main.py": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/medcalc/medcalc/__main__.py": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/call-for-papers-mcp/call-for-papers-mcp-main/server.py": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/car-price-mcp-main/server.py": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/fruityvice-mcp/server.py": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/game-trends-mcp/server.py": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/movie-recommender-mcp/movie-reccomender-mcp/server.py": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/weather_mcp/server.py": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/huggingface-mcp-server/src/huggingface/server.py": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/dexpaprika-mcp/src/index.js": {
+   "n_servers": 1
+  },
+  "${MCPDATA_ROOT}/mcp_bench/mcp-bench/mcp_servers/scientific_computation_mcp/src/server.py": {
+   "n_servers": 1
+  }
+ },
+ "local_clone_dep_files": {},
+ "hardcoded_interpreters": {},
+ "env_vars": [
+  {
+   "name": "AGENTOPS_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "AGENTSET_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "AGENTSET_NAMESPACE_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "AIRFLOW_HOST",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "AIRFLOW_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "AIRFLOW_USERNAME",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "AIRTABLE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "AI_CHAT_BASE_URL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "AI_CHAT_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "AI_CHAT_MODEL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "AI_CHAT_NAME",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "AI_CLOUD_360_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ALCHEMY_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ALLOWED_COMMANDS",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "ALLOWED_DIR",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ALLOW_SHELL_COMMANDS",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "ALLOW_SHELL_OPERATORS",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "AMAP_MAPS_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "AMPLITUDE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ANTHROPIC_API_KEY",
+   "status": "placeholder",
+   "n_servers": 3
+  },
+  {
+   "name": "ANYSITE_ACCESS_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "APIFOX_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "API_HEADERS",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "API_KEY",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "APP_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "APP_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ATLAS_PRIVATE_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ATLAS_PUBLIC_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ATLA_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ATTIO_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "AUTH_METHOD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "AUTH_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "AZURE_CLIENT_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "AZURE_CLIENT_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "BAIDU_MAP_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "BAILIAN_MCP_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "BAMBU_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "BANKLESS_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "BCE_ACCESS_KEY_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "BCE_SECRET_ACCESS_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "BIZINFO_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "BRAVE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "BTCPAY_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CAIRO_CODER_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CALCSLIVE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CANVAS_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CANVAS_DOMAIN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CAPACITIES_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CAPSOLVER_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CC_ID",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "CC_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CC_URL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "CEREBRAS_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CHAINFETCH_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CHATTERBOX_CFG_WEIGHT",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "CHATTERBOX_EXAGGERATION",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "CHATTERBOX_MAX_CHARACTERS",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "CHATTERBOX_PLAYBACK_VOLUME",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "CLADO_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CLARITY_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CLASH_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CLAY_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CLIENT_ID",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "CLIENT_SECRET",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "CODE_STORAGE_DIR",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "COMMAND_TIMEOUT",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "CONNECTWISE_API_URL",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CONNECTWISE_AUTH_PREFIX",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CONNECTWISE_COMPANY_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CONNECTWISE_PRIVATE_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CONNECTWISE_PUBLIC_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CONTENTFUL_DELIVERY_ACCESS_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CONTENTFUL_MANAGEMENT_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "CONTEXT_ENGINE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "COS_BUCKET",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "COS_DATASET_NAME",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "COS_REGION",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "COS_SECRET_ID",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "COS_SECRET_KEY",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "CertificatePassword",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "DAPPIER_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "DASHSCOPE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "DATADOG_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "DATADOG_APP_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "DATADOG_SITE",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "DB_HOST",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "DB_NAME",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "DB_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "DB_PORT",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "DB_USER",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "DEALX_API_URL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "DEEPSEEK_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "DENO_PERMISSION_ARGS",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "DESEARCH_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "DISCORD_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "DUNE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "DYNAMIC_MOCKUPS_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "E2B_API_KEY",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "ENV_TYPE",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "ES_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ES_URL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "ES_VERSION",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "EXA_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "FASTMCP_LOG_LEVEL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "FEISHU_APP_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "FEISHU_APP_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "FIGMA_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "FIGMA_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "FIRECRAWL_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "FIREFLY_III_BASE_URL",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "FIREFLY_III_PAT",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "FLOW_LLM_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "FLYWORKS_API_BASE_URL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "FLYWORKS_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "FLYWORKS_MCP_BASE_PATH",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "FPL_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GB_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GB_API_URL",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GB_APP_ORIGIN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GB_EMAIL",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GDRIVE_CREDS_DIR",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GEMINI_API_KEY",
+   "status": "placeholder",
+   "n_servers": 3
+  },
+  {
+   "name": "GENERATE_SHORTCUT_TOOLS",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "GET_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GH_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GITHUB_MCP_SERVER_BIN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GITHUB_OWNER",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GITHUB_PERSONAL_ACCESS_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GITHUB_REPO",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GITHUB_TOKEN",
+   "status": "placeholder",
+   "n_servers": 4
+  },
+  {
+   "name": "GMAIL_CLIENT_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GMAIL_CLIENT_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GMAIL_REFRESH_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GOODDAY_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GOOGLE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 4
+  },
+  {
+   "name": "GOOGLE_APPLICATION_CREDENTIALS",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GOOGLE_CLIENT_ID",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "GOOGLE_CLIENT_SECRET",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "GOOGLE_MAPS_API_KEY",
+   "status": "placeholder",
+   "n_servers": 4
+  },
+  {
+   "name": "GOOGLE_REFRESH_TOKEN",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "GOPLUS_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GOPLUS_API_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GOTOHUMAN_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GRAPHQL_AUTH_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GRAPHQL_ENDPOINT",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "GROQ_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "HACKLE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "HEADLESSHOST_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "HF_SEARCH_API_URL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "HF_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "HOME",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "HUBBLE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "HUGGINGFACE_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "HYPERBROWSER_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "IB_PASSWORD_AUTH",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "IMAGE_STORAGE_DIRECTORY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "IMAP_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "IMGFLIP_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "IMGFLIP_USERNAME",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "INJECT_SHORTCUT_LIST",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "INKDROP_LOCAL_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "INKDROP_LOCAL_SERVER_URL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "INKDROP_LOCAL_USERNAME",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "INTERACTSH_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "IPAPI_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "IPFIND_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "IPLOCATE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "JINA_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "JIRA_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "JWT_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "KERBEROS_MUTUAL_AUTH",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "KEYWORDSPEOPLEUSE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "KUAIDI100_AUTH_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "KUAIDI100_CUSTOMER",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "LARA_ACCESS_KEY_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "LARA_ACCESS_KEY_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "LIDARR_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "LIKEC4_WORKSPACE",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "LINEAR_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "LLAMA_CLOUD_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "LLAMA_CLOUD_PROJECT_NAME",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "LLM_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "LOGFIRE_READ_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "LOG_LEVEL",
+   "status": "real",
+   "n_servers": 9
+  },
+  {
+   "name": "MAILTRAP_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MASTERGO_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MAX_COMMAND_LENGTH",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "MAX_HISTORY_SIZE",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "MCPDATA_ROOT",
+   "status": "placeholder",
+   "n_servers": 29
+  },
+  {
+   "name": "MCP_DEBUGGER_AUTH_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MCP_LOG_LEVEL",
+   "status": "real",
+   "n_servers": 2
+  },
+  {
+   "name": "MCP_SERVER_REQUEST_TIMEOUT",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "MDB_MCP_TELEMETRY_DISABLED",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "MEMORY_FILE_PATH",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MEMOS_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MIKROTIK_HOST",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MIKROTIK_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MIKROTIK_PORT",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MIKROTIK_USERNAME",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MINIO_ACCESS_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MINIO_SECRET_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MIRO_ACCESS_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MISTTRACK_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MODEL_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MONGODB_CONNECTION_STRING",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MONGODB_DEFAULT_DB",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "MONGODB_URI",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "MUREKA_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MUREKA_API_URL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "MYSQL_DATABASE",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MYSQL_HOST",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "MYSQL_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "MYSQL_USER",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "N8N_API_KEY",
+   "status": "placeholder",
+   "n_servers": 4
+  },
+  {
+   "name": "NACOS_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "NACOS_USERNAME",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "NASA_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "NCI_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "NEEDLE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "NEO4J_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "NFTGO_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "NIUTRANS_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "NLOBBY_BASE_URL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "NODE20_BIN",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "NOTION_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "NOTION_PAGE_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "NOTION_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "NPS_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "NS_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "NVIM_SOCKET_PATH",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "OCTAGON_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "OHCARD_PYTHON_BIN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "OPENAI_API_KEY",
+   "status": "placeholder",
+   "n_servers": 4
+  },
+  {
+   "name": "OPENAPI_MCP_HEADERS",
+   "status": "placeholder",
+   "n_servers": 3
+  },
+  {
+   "name": "OPENROUTER_API_KEY",
+   "status": "placeholder",
+   "n_servers": 6
+  },
+  {
+   "name": "OPENSUBTITLES_USER_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "OPIK_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "OPTIMIZELY_API_KEY_ACME_FULL",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "OPTIMIZELY_API_KEY_ACME_PROD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "OPTIMIZELY_API_KEY_CLIENT_B",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "OPTIMIZELY_API_KEY_CLIENT_C",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "OSMOSIS_MNEMONIC",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "OSS_CONFIG_JSON",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "OURA_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "OUTSCRAPER_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "OXYLABS_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "OXYLABS_USERNAME",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PATH",
+   "status": "system",
+   "n_servers": 6
+  },
+  {
+   "name": "PENPOT_API_URL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "PENPOT_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PENPOT_USERNAME",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PERPLEXITY_API_KEY",
+   "status": "placeholder",
+   "n_servers": 3
+  },
+  {
+   "name": "PIHOLE_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PINECONE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PIPEBOARD_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PIXABAY_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PLANE_API_HOST_URL",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PLANE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PLANE_WORKSPACE_SLUG",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PLANKA_AGENT_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS",
+   "status": "real",
+   "n_servers": 2
+  },
+  {
+   "name": "PLEX_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "POP3_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PORT",
+   "status": "real",
+   "n_servers": 9
+  },
+  {
+   "name": "POSTGRES_CONNECTION_STRING",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "POSTGRES_DB",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "POSTGRES_HOST",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "POSTGRES_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "POSTGRES_PORT",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "POSTGRES_USER",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PRIVATE_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PRODUCTBOARD_ACCESS_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PROJECT_EXPLORER_PATH",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PROWLARR_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PUBMED_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PUSHOVER_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PUSHOVER_USER",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "PYTHON_MCP_BIN",
+   "status": "placeholder",
+   "n_servers": 3
+  },
+  {
+   "name": "QIITA_ACCESS_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "QWEATHER_API_BASE",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "QWEATHER_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "RADARR_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "RAGRABBIT_DOCUMENTATION_NAME",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "RAGRABBIT_URL",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "RANDOM_ORG_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "READARR_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "RECRAFT_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "RECRAFT_REMOTE_RESULTS_STORAGE",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "REDDIT_CLIENT_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "REDDIT_CLIENT_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "REF_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "RGB_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "RIJKSMUSEUM_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ROLLBAR_ACCOUNT_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ROLLBAR_PROJECT_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ROLLBAR_PROJECT_NAME",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ROLLBAR_PROJECT_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "RUNWAYML_API_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SALESFORCE_CONSUMER_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SALESFORCE_CONSUMER_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SALESFORCE_INSTANCE_URL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "SALESFORCE_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SALESFORCE_USERNAME",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SCENEXT_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SEARCH1API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SEARCHAPI_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SEMANTIC_SCHOLAR_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SENTRY_AUTH_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SENTRY_ORGANIZATION_SLUG",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SENTRY_PROJECT_SLUG",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SENTRY_URL",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SERPER_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SERPER_BASE_URL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "SFTP_HOST",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SFTP_KEY_PATH",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SFTP_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SFTP_PORT",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SFTP_USER",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SHORTCUT_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SLACK_BOT_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SLACK_MCP_XOXC_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SLACK_MCP_XOXD_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SLACK_TEAM_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SMITHERY_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SMITHERY_PROFILE",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SMTP_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SONARR_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SPACE_ID",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "SQL_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "STRAVA_CLIENT_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "STRAVA_CLIENT_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "STRAVA_REFRESH_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SUMUP_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SUPABASE_ANON_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SUPABASE_API_URL",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SUPABASE_SCHEMA",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SUPAVEC_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SWIT_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SWIT_CLIENT_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "SWIT_CLIENT_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "TASK_MANAGER_FILE_PATH",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "TAVILY_API_KEY",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "TB_ADMIN_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "TB_API_URL",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "TERMINAL_ALLOWED_PATH",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "THEMEPARKS_API_BASE_URL",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "TIME_OUT_SECONDS",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "TODOIST_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "TRANSPORT",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "TUSHARE_API_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "TWELVEDATA_API_KEY",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "TWENTY_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "TWITTER_ACCESS_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "TWITTER_ACCESS_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "TWITTER_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "TWITTER_API_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "TYPESENSE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "TYPESENSE_HOST",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "TYPESENSE_PORT",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "TYPESENSE_PROTOCOL",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "UBER_CLIENT_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "UBER_CLIENT_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "USENSEDATA_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "USE_MALE_VOICE",
+   "status": "real",
+   "n_servers": 1
+  },
+  {
+   "name": "USQL_DEFAULT_CONNECTION",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "UV_VENV_PATH",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "VONAGE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "VONAGE_API_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "VONAGE_PRIVATE_KEY64",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "VRCHAT_AUTH_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "VRCHAT_USERNAME",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "VTEX_ACCOUNT",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "VTEX_APP_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "VTEX_APP_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "WALLET_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "WAROOM_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "WEATHER_API_KEY",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "WEATHER_DATA_PYTHON",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "WORKFLOWY_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "WP_API_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "WP_APP_PASSWORD",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "WP_APP_USER",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "WP_URL",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "XAI_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "XERO_CLIENT_ID",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "XERO_CLIENT_SECRET",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "YAPI_BASE_URL",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "YAPI_TOKEN",
+   "status": "placeholder",
+   "n_servers": 2
+  },
+  {
+   "name": "YDC_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "YOUTUBE_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ZAPCAP_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ZAPMAIL_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ZEROCRACY_TOKEN",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ZOTERO_API_KEY",
+   "status": "placeholder",
+   "n_servers": 1
+  },
+  {
+   "name": "ZOTERO_LOCAL",
+   "status": "real",
+   "n_servers": 1
+  }
+ ],
+ "benchmark_dependencies": {
+  "mcpbench": {
+   "servers": 28,
+   "npm": 2,
+   "pypi": 0,
+   "local_or_other": 26
+  },
+  "mcp_universe": {
+   "servers": 11,
+   "npm": 4,
+   "pypi": 2,
+   "local_or_other": 5
+  },
+  "mcpatlas": {
+   "servers": 35,
+   "npm": 21,
+   "pypi": 9,
+   "local_or_other": 5
+  }
+ },
+ "env_vars_format": "array; names are case-sensitive",
+ "release": "2026.09.22"
+}
